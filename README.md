@@ -35,30 +35,35 @@ In this course we will get familiar with basic system C programming techniques a
 
 
 1. Choosing your IDE and basic C. Vim, Emacs, Geany, Eclipse?!?!,….
-
-    1.1. Installation, plugins
-
-    1.2. Configuration
-
-    1.3. Using it on remote machine
-
-    1.4. Excersises with arryas(compiling single files, no makefiles)
-
-    1.5. Excersises with IO files
+1.1. Installation, plugins
+1.2. Configuration
+1.3. Using it on remote machine
+1.4. Excersises with arryas(compiling single files, no makefiles)
+1.5. Excersises with IO files
 
 
 2. Build of projects in C
+
     2.1. Makefiles - good sides and bad sides
+
     2.2. cmake, make, gcc
+
     2.3. Using libraries, dynamically and statically 
+
     2.4. Helpful tools- ldd, nm,(others)..
+
     2.5. Excersises with data structures and some libraries(pcap, maybe others)
     
-3. I/O from devices
-    3.1. How to find our device - dmesg and /dev
-    3.2. How to sniff communication between PC and device
-    3.3. Libraries for commmunicating with devides, making your own primitive one.
-    3.4. Excersises with bluetooth mice, USB flash sticks(and other devices to be found)
+3. I/O from devices 
+
+    3.1. How to find our device - dmesg and /dev 
+
+    3.2. How to sniff communication between PC and device 
+
+    3.3. Libraries for commmunicating with devides, making your own primitive one. 
+
+    3.4. Excersises with bluetooth mice, USB flash sticks(and other devices to be found) 
+
 
 4. Debuging with Gdb
     4.1. Attaching to process, using the source code.
