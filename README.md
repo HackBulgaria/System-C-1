@@ -8,38 +8,44 @@ This is Hack Bulgarias' System C course.
 
 In this course we will get familiar with basic system C programming techniques and how they are applied in Linux/BSD distributions. The goal of the course is to give a good start to anyone who wants to play or work in this field.
 
-The following subjects will be viewed during the course:
+- The following subjects will be viewed during the course:
 
-Vim and Emacs as IDEs. "Flame wars". During the course we will introduce different system tools used for the development process - grep, cat, tail,...
+- Vim and Emacs as IDEs. "Flame wars". During the course we will introduce different system tools used for the development process - grep, cat, tail,...
 
-Build of projects, tools for dependency reslov, problems with building a software project. 
+- Build of projects, tools for dependency reslov, problems with building a software project. 
 
-I/O from devides, consoles, socjets. Processor interruptions and I/O.
+- I/O from devides, consoles, socjets. Processor interruptions and I/O.
 
-Debuging with Gdb - how to use GDB on a local and remote machine.
+- Debuging with Gdb - how to use GDB on a local and remote machine.
 
-Memory management what happens when we allocate and free memory. How does the kernel manage the memory. Reference counters and other popular techniques. Not using dynamic memory?!
+- Memory management what happens when we allocate and free memory. How does the kernel manage the memory. Reference counters and other popular techniques. Not using dynamic memory?!
 
-Debuging of memory - Valgrind. How to make memory leaks and how to find and fix them later. 
+- Debuging of memory - Valgrind. How to make memory leaks and how to find and fix them later. 
 
-How to debug with traces and logs, why Gdb is not enough. Using syslog and /var/log/messages. How to make processes nad plugins to show logs and how to read them.
+- How to debug with traces and logs, why Gdb is not enough. Using syslog and /var/log/messages. How to make processes nad plugins to show logs and how to read them.
 
-fork and exec, relations between processes. Making daemons and state machines with fork and exec. Inter process communications.
+- fork and exec, relations between processes. Making daemons and state machines with fork and exec. Inter process communications.
 
-mutex, locks how to make IPC work right(at least a little bit right).
+- mutex, locks how to make IPC work right(at least a little bit right).
 
-Multithreading - Posix threads, strings
+- Multithreading - Posix threads, strings
 
-Finding 3-4 open source projects and analyzing, possibly documenting their code.(Raver(has gread code), Aircrack-ng(...horrible code) )
+- Finding 3-4 open source projects and analyzing, possibly documenting their code.(Raver(has gread code), Aircrack-ng(...horrible code) )
 
 
 
 1. Choosing your IDE and basic C. Vim, Emacs, Geany, Eclipse?!?!,….
+
     1.1. Installation, plugins
+
     1.2. Configuration
+
     1.3. Using it on remote machine
+
     1.4. Excersises with arryas(compiling single files, no makefiles)
+
     1.5. Excersises with IO files
+
 
 2. Build of projects in C
     2.1. Makefiles - good sides and bad sides
