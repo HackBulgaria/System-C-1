@@ -35,11 +35,16 @@ In this course we will get familiar with basic system C programming techniques a
 
 
 1. Choosing your IDE and basic C. Vim, Emacs, Geany, Eclipse?!?!,….
-1.1. Installation, plugins
-1.2. Configuration
-1.3. Using it on remote machine
-1.4. Excersises with arryas(compiling single files, no makefiles)
-1.5. Excersises with IO files
+
+    1.1. Installation, plugins
+
+    1.2. Configuration
+
+    1.3. Using it on remote machine
+
+    1.4. Excersises with arryas(compiling single files, no makefiles)
+
+    1.5. Excersises with IO files
 
 
 2. Build of projects in C
@@ -66,50 +71,77 @@ In this course we will get familiar with basic system C programming techniques a
 
 
 4. Debuging with Gdb
+
     4.1. Attaching to process, using the source code.
+
     4.2. Breakpoints, steping through code, layout mode.
+
     4.3. Debugging and developing code from previous excersise.
 
 5. Memory management.
+
     5.1. Stack and dynamic memory, how they are filled, aligned and cut into pieces.
+
     5.2. Good practices for good memory.
+
     5.3. Rewriting the code from the previous excersise using dynamic memory.
 
 6. Debuging the dynamic memory.
     6.1. Valgrind.
+
     (6.2. TBD)
+
     6.3. Fixing memory leaks in our code from the previous excersise.
 
 7. How to debug with traces and logs. (unfinished chapter)
+
     7.1. Using syslog, /var/log/messages. 
+
     7.2. How to configure logs in processes and plugins.
+
     7.3. Add log to our code
+
     7.4. Seeing real life bugs and their logs.(flash player and other software)
 
 8. fork and exec
+
     8.1. Relationships between processes.
+
     8.2. Daemonising and state machines.
+
     8.3. Making a process that forks and execs stuff.
+
     8.4. How to debug and restrict forking and exec.
 
 9. Inter process communication.
+
     9.1. sockets
+
     9.2. pipes
+
     9.3. shared memory    
+
     9.4. Excersise - making a primitive server client.
+
     9.5. Excersise - making a primitive IPC between a group of processes using shared memory.
 
 10. mutex, locks how to make the IPC work properly (no race condition)
+
     10.1. shared memory locking
+
     10.2. semaphors
+
     10.3. mutex
+
     10.4. Excersise - making a primitive IPC between a group of processes using shared memory properly.
 
 11. Posix threads and fibers as threads
-    11.1. Very easy.
-    11.2. Synchronisation hurts.
-    11.3. Excersise - making a simple state machine with threads who stop and play each other.
 
+    11.1. Very easy.
+
+    11.2. Synchronisation hurts.
+
+    11.3. Excersise - making a simple state machine with threads who stop and play each other.
 
 12. Choosing 3-4 open source projects and having fun with them.
 
