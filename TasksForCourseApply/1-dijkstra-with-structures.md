@@ -6,5 +6,6 @@ Implement Dijsktra's algorithm for finding optimal paths using
  *The input should will be*:
 - N M - number of nodes and number connections 
 - n1 n2 w - M lines of node1 and node2 numbers and the weight of the connection
+- a b - on the M+1-st line, vertices a and b whose shortest path you should find, -1 if there is no path 
 
 **The grading will include mostly code reviewing - write good code.**
