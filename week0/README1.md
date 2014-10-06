@@ -58,13 +58,24 @@ emacs: built in (C-x b),
 
 **Autocomplete**
 
-vim : buit in(Ctrl+N), ctrl+p
+vim : buit in(Ctrl+N), 
+
+ https://github.com/Valloric/YouCompleteMe
+
+http://www.vim.org/scripts/script.php?script_id=3302 
+
+https://github.com/Shougo/neocomplete.vim
 
 emacs: http://www.emacswiki.org/emacs/AutoComplete
 
 **Compiler integration**
 
 vim : built-in(:make)
+
+ https://github.com/vim-scripts/SingleCompile 
+
+ http://www.vim.org/scripts/script.php?script_id=213
+
 
 emacs : buit-in(M-x compile)
 
@@ -76,7 +87,7 @@ emacs : buit-in (M-x grep searc_term ./*)
 
 **Search in code - go to definitions, find use in files**
 
-vim : built in?, taglist, http://vim.wikia.com/wiki/Use_Vim_like_an_IDE
+vim : built-in(go over function or variable and press 'gd'), taglist, http://vim.wikia.com/wiki/Use_Vim_like_an_IDE
 
 emacs: http://www.emacswiki.org/emacs/EmacsTags
  
@@ -95,6 +106,32 @@ emacs: http://www.gnu.org/software/emacs/manual/html_mono/ebrowse.html
 **Session and project handling**
 
 vim: built in sessions in vim, additonal script, other
+
+add this to your .vimrc
+```vimscript
+function! MakeSession()
+  let b:sessiondir = $HOME . "/.vim/sessions" . getcwd()
+  if (filewritable(b:sessiondir) != 2)
+    exe 'silent !mkdir -p ' b:sessiondir
+    redraw!
+  endif
+  let b:filename = b:sessiondir . '/session.vim'
+  exe "mksession! " . b:filename
+endfunction
+
+function! LoadSession()
+  let b:sessiondir = $HOME . "/.vim/sessions" . getcwd()
+  let b:sessionfile = b:sessiondir . "/session.vim"
+  if (filereadable(b:sessionfile))
+    exe 'source ' b:sessionfile
+  else
+    echo "No session loaded."
+  endif
+endfunction
+au VimEnter * nested :call LoadSession()
+au VimLeave * :call MakeSession()
+```
+
 
 emacs: https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html
 
