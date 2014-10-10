@@ -13,3 +13,6 @@ The ./configure script itself is generated from a programmer-defined file named 
 
 Read more on GNU Autotools. Read about make and Makefile first, then learn about automake, autoconf, libtool, etc.
 
+http://www.edwardrosten.com/code/autoconf/
+
+http://mij.oltrelinux.com/devel/autoconf-automake/
