@@ -11,7 +11,7 @@ lsusb -v
 
 # Sniffing on the usb
 
-http://dan3lmi.blogspot.com/2012/10/sniffing-usb-traffic-different.html
+http://bewareandenjoy.com/System-C-course/Sniffing%20USB%20Traffic%20-%20Different%20Approaches%20|%20Dlog.htm
 
 http://omappedia.org/wiki/USB_Sniffing_with_tcpdump
 
