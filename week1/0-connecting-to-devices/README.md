@@ -22,3 +22,5 @@ http://matthias.vallentin.net/blog/2007/04/writing-a-linux-kernel-driver-for-an-
 http://www.linuxjournal.com/article/4786
 
 http://lxr.free-electrons.com/source/drivers/usb/usb-skeleton.c
+
+http://tldp.org/LDP/lkmpg/2.6/html/index.html
