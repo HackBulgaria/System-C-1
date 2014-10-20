@@ -4,6 +4,8 @@
 
 Every process uses memory to store its data. There is static memory, stack memory or something like that and - dynamic memory.
 
+http://en.wikipedia.org/wiki/C_dynamic_memory_allocation
+
 malloc and free - these system primitives call the kernel to free some memory for our program to store some things in. It also does not allow other processes to write there.
 When our program stops - the kernel frees all the memory it gave to the process.
 
