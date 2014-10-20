@@ -30,3 +30,6 @@ Make a log into malloc if you think the other tasks are too easy for you.
 Make a memory leak.
 
 Make a process use a limited amount of memory, so it does not eat all our memory.
+
+sudo cat /proc/879/maps
+
