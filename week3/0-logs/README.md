@@ -15,4 +15,6 @@
   Race conditions cannot be debugged with GDB easily. It's OK if you have not seen a race condition in real life, you will soon.
 
 
+# useful information 
 
+http://www.thegeekstuff.com/2011/08/linux-var-log-files/
