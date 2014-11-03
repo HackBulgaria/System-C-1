@@ -12,3 +12,5 @@
 5. Make a recursive posix thread bomb.
 
 6. Make something with ptrace.
+
+7. Play with gdb and debugging pthreads.

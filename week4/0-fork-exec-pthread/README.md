@@ -36,4 +36,10 @@ https://computing.llnl.gov/tutorials/pthreads/ - long, long read
 
 Synchronisation hurts. We'll do it next time.
 
+Debugging with GDB, it is not very nice.
+info threads
+some-way-to-select-a-thread
+race conditions
+
+Debugging with traces is how it is done.
 
