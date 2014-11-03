@@ -1,0 +1,1 @@
+cmd_/home/smith/work/skeletor2/skeletor.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/smith/work/skeletor2/skeletor.ko /home/smith/work/skeletor2/skeletor.o /home/smith/work/skeletor2/skeletor.mod.o
