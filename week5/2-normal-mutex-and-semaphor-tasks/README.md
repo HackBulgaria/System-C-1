@@ -1,7 +1,7 @@
 
 # Normal tasks
 
-1. Make a simple battleship game which has a server and clients who connect to it. The server listens to a socket to get a client. When he has two clients he stops allowing clients. When a client submits a move - the server locks the battleship map, changes it and unlocks it. The client messages must be ordered - firs player one, then player two. After a change - the serversends the updated maps to the clients. Creating the maps - make the server generate them randomly, or write code so the client can create them. The client creating a battleship map is quite booring, so you do not have to do it.
+1. Make a server that holds one table  and clients can connect and append, rewrite and get the table.
 
 2. In the producer-consumer problem, one process (the producer) generates data items and another process (the consumer) receives and uses them. They communicate using a queue of maximum size N and are subject to the following conditions:
 
