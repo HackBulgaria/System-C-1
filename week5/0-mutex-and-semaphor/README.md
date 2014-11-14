@@ -1,7 +1,7 @@
 
 # mutex, locks how to make the IPC work properly (no race condition)
 
-0. Tell them about Vim change in [symbol] (not related to todays lesson)
+0. Tell them about Vim change in 'symbol' (not related to todays lesson)
 
 1. Mutex 
 
